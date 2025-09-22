@@ -185,7 +185,7 @@ header {
 
 /* Seção Contato */
 .contato-section {
-  padding: 70px 10%;
+  padding: 160px 10%;
   text-align: center;
   background: #222;
   color: #ddd;
@@ -248,6 +248,24 @@ header {
   line-height: 1.5;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+  .contato-section {
+    padding: 120px 5%; /* Reduz o padding para telas médias */
+  }
+}
+
+@media (max-width: 768px) {
+  .contato-section {
+    padding: 80px 5%; /* Menos padding para dispositivos menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-section {
+    padding: 60px 3%; /* Padding ainda menor para telas pequenas */
+  }
+}
 /* Responsivo */
 @media (max-width: 768px) {
   .contatos {
