@@ -251,19 +251,19 @@ header {
 /* Responsividade para telas menores */
 @media (max-width: 1200px) {
   .contato-section {
-    padding: 120px 5%; /* Reduz o padding para telas médias */
+    padding: 160px 5%; /* Reduz o padding para telas médias */
   }
 }
 
 @media (max-width: 768px) {
   .contato-section {
-    padding: 80px 5%; /* Menos padding para dispositivos menores */
+    padding: 120px 5%; /* Menos padding para dispositivos menores */
   }
 }
 
 @media (max-width: 480px) {
   .contato-section {
-    padding: 60px 3%; /* Padding ainda menor para telas pequenas */
+    padding: 40px 3%; /* Padding ainda menor para telas pequenas */
   }
 }
 /* Responsivo */
